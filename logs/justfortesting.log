@@ -1,0 +1,388 @@
+2023-01-20 04:20:58,727 -0800 [main] ERROR (ReadConfigXlsFile.java:46) - org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+2023-01-20 04:20:58,739 -0800 [main] ERROR (ReadConfigXlsFile.java:59) - java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "m" is null
+2023-01-20 04:20:58,741 -0800 [main] ERROR (ReadConfigXlsFile.java:46) - org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+2023-01-20 04:20:58,743 -0800 [main] ERROR (ReadConfigXlsFile.java:59) - java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "m" is null
+2023-01-20 04:21:01,617 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 04:21:01,618 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 04:21:02,779 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 04:21:02,779 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 04:21:02,867 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 04:21:02,868 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 04:21:03,006 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 04:21:03,006 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 04:21:03,321 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 04:21:03,322 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 04:21:03,580 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 04:21:03,583 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 04:21:03,875 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 04:21:03,876 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 04:21:04,016 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 04:21:04,016 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 04:21:04,176 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 04:21:04,176 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 04:21:06,327 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 04:21:06,327 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 04:21:08,444 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 04:21:08,446 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 04:21:09,562 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 04:21:09,565 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 04:21:09,642 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 04:21:09,642 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 04:21:09,748 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 04:21:09,748 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 04:21:09,856 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 04:21:09,856 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 04:21:10,011 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 04:21:10,012 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 04:21:10,140 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 04:21:10,141 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 04:21:10,283 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 04:21:10,283 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 04:21:10,391 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 04:21:10,391 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 04:21:10,512 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 04:21:10,514 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 04:21:10,615 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 04:21:10,623 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 04:21:10,774 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 04:21:10,775 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 04:37:26,065 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 04:37:26,101 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 04:37:27,399 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 04:37:27,400 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 04:37:27,547 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 04:37:27,547 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 04:37:27,708 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 04:37:27,708 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 04:37:27,926 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 04:37:27,928 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 04:37:28,074 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 04:37:28,075 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 04:37:28,228 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 04:37:28,229 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 04:37:28,360 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 04:37:28,362 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 04:37:28,454 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 04:37:28,454 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 04:37:30,555 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 04:37:30,556 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 04:37:32,655 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 04:37:32,662 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 04:37:33,740 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 04:37:33,742 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 04:37:33,817 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 04:37:33,818 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 04:37:33,905 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 04:37:33,905 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 04:37:33,986 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 04:37:33,987 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 04:37:34,088 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 04:37:34,089 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 04:37:34,173 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 04:37:34,174 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 04:37:34,277 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 04:37:34,278 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 04:37:34,352 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 04:37:34,353 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 04:37:34,443 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 04:37:34,443 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 04:37:34,519 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 04:37:34,521 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 04:37:34,628 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 04:37:34,631 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:01:09,666 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:01:09,672 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:01:10,864 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:01:10,865 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:01:10,988 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 05:01:10,988 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 05:01:11,171 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 05:01:11,171 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 05:01:11,516 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 05:01:11,517 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 05:01:11,915 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 05:01:11,915 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 05:01:12,131 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 05:01:12,131 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 05:01:12,316 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 05:01:12,317 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 05:01:12,814 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:01:12,818 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:01:15,005 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:01:15,008 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:01:17,118 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 05:01:17,121 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 05:01:18,239 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:01:18,241 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:01:18,320 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 05:01:18,320 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 05:01:18,431 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 05:01:18,432 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 05:01:18,547 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 05:01:18,547 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 05:01:18,686 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 05:01:18,687 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 05:01:18,835 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 05:01:18,836 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 05:01:19,015 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 05:01:19,016 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 05:01:19,151 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 05:01:19,151 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 05:01:19,342 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 05:01:19,342 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 05:01:19,448 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 05:01:19,449 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 05:01:19,612 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:01:19,614 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:04:18,173 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:04:18,188 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:04:19,375 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:04:19,375 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:04:19,477 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 05:04:19,477 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 05:04:19,642 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 05:04:19,642 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 05:04:20,067 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 05:04:20,067 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 05:04:20,409 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 05:04:20,410 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 05:04:20,661 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 05:04:20,662 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 05:04:20,825 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 05:04:20,826 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 05:04:21,017 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:04:21,017 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:04:23,205 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:04:23,208 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:04:25,328 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 05:04:25,331 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 05:04:26,441 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:04:26,450 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:04:26,521 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 05:04:26,522 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 05:04:26,644 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 05:04:26,645 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 05:04:26,776 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 05:04:26,777 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 05:04:26,898 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 05:04:26,899 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 05:04:27,026 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 05:04:27,027 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 05:04:27,167 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 05:04:27,168 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 05:04:27,283 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 05:04:27,284 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 05:04:27,412 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 05:04:27,413 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 05:04:27,544 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 05:04:27,546 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 05:04:27,697 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:04:27,702 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:09:08,790 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:09:08,799 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:09:09,018 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:09:09,019 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:09:09,360 -0800 [main] INFO  (BaseClass.java:52) - User able to enter current annual income
+2023-01-20 05:09:09,361 -0800 [main] ERROR (BaseClass.java:53) - User able to enter current annual income
+2023-01-20 05:09:09,767 -0800 [main] INFO  (BaseClass.java:52) - User able to enter spouse income
+2023-01-20 05:09:09,768 -0800 [main] ERROR (BaseClass.java:53) - User able to enter spouse income
+2023-01-20 05:09:10,138 -0800 [main] INFO  (BaseClass.java:52) - User able to enter total saving
+2023-01-20 05:09:10,138 -0800 [main] ERROR (BaseClass.java:53) - User able to enter total saving
+2023-01-20 05:09:10,346 -0800 [main] INFO  (BaseClass.java:52) - User able to enter annual saving
+2023-01-20 05:09:10,347 -0800 [main] ERROR (BaseClass.java:53) - User able to enter annual saving
+2023-01-20 05:09:10,621 -0800 [main] INFO  (BaseClass.java:52) - User able to enter rate of Interest
+2023-01-20 05:09:10,622 -0800 [main] ERROR (BaseClass.java:53) - User able to enter rate of Interest
+2023-01-20 05:09:10,952 -0800 [main] INFO  (BaseClass.java:52) - User able to select socialsecurity benifit
+2023-01-20 05:09:10,953 -0800 [main] ERROR (BaseClass.java:53) - User able to select socialsecurity benifit
+2023-01-20 05:09:13,110 -0800 [main] INFO  (BaseClass.java:52) - User able to marital status
+2023-01-20 05:09:13,112 -0800 [main] ERROR (BaseClass.java:53) - User able to marital status
+2023-01-20 05:09:13,322 -0800 [main] INFO  (BaseClass.java:52) - User able to click on calculator
+2023-01-20 05:09:13,323 -0800 [main] ERROR (BaseClass.java:53) - User able to click on calculator
+2023-01-20 05:09:16,712 -0800 [main] INFO  (BaseClass.java:52) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:09:16,714 -0800 [main] ERROR (BaseClass.java:53) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:18:59,020 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:18:59,027 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:18:59,584 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:18:59,585 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:18:59,905 -0800 [main] INFO  (BaseClass.java:52) - User able to enter current annual income
+2023-01-20 05:18:59,906 -0800 [main] ERROR (BaseClass.java:53) - User able to enter current annual income
+2023-01-20 05:19:00,218 -0800 [main] INFO  (BaseClass.java:52) - User able to enter spouse income
+2023-01-20 05:19:00,218 -0800 [main] ERROR (BaseClass.java:53) - User able to enter spouse income
+2023-01-20 05:19:00,526 -0800 [main] INFO  (BaseClass.java:52) - User able to enter total saving
+2023-01-20 05:19:00,526 -0800 [main] ERROR (BaseClass.java:53) - User able to enter total saving
+2023-01-20 05:19:00,740 -0800 [main] INFO  (BaseClass.java:52) - User able to enter annual saving
+2023-01-20 05:19:00,740 -0800 [main] ERROR (BaseClass.java:53) - User able to enter annual saving
+2023-01-20 05:19:01,011 -0800 [main] INFO  (BaseClass.java:52) - User able to enter rate of Interest
+2023-01-20 05:19:01,012 -0800 [main] ERROR (BaseClass.java:53) - User able to enter rate of Interest
+2023-01-20 05:19:01,302 -0800 [main] INFO  (BaseClass.java:52) - User able to select socialsecurity benifit
+2023-01-20 05:19:01,303 -0800 [main] ERROR (BaseClass.java:53) - User able to select socialsecurity benifit
+2023-01-20 05:19:03,488 -0800 [main] INFO  (BaseClass.java:52) - User able to marital status
+2023-01-20 05:19:03,489 -0800 [main] ERROR (BaseClass.java:53) - User able to marital status
+2023-01-20 05:19:03,632 -0800 [main] INFO  (BaseClass.java:52) - User able to click on social security amount
+2023-01-20 05:19:03,633 -0800 [main] ERROR (BaseClass.java:53) - User able to click on social security amount
+2023-01-20 05:19:03,759 -0800 [main] INFO  (BaseClass.java:52) - User able to social security override amount
+2023-01-20 05:19:03,760 -0800 [main] ERROR (BaseClass.java:53) - User able to social security override amount
+2023-01-20 05:19:03,971 -0800 [main] INFO  (BaseClass.java:52) - User able to click on calculator
+2023-01-20 05:19:03,972 -0800 [main] ERROR (BaseClass.java:53) - User able to click on calculator
+2023-01-20 05:19:06,113 -0800 [main] INFO  (BaseClass.java:52) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:19:06,115 -0800 [main] ERROR (BaseClass.java:53) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:19:45,664 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:19:45,673 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:19:46,019 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:19:46,019 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:19:46,398 -0800 [main] INFO  (BaseClass.java:52) - User able to enter current annual income
+2023-01-20 05:19:46,399 -0800 [main] ERROR (BaseClass.java:53) - User able to enter current annual income
+2023-01-20 05:19:46,697 -0800 [main] INFO  (BaseClass.java:52) - User able to enter spouse income
+2023-01-20 05:19:46,698 -0800 [main] ERROR (BaseClass.java:53) - User able to enter spouse income
+2023-01-20 05:19:47,025 -0800 [main] INFO  (BaseClass.java:52) - User able to enter total saving
+2023-01-20 05:19:47,026 -0800 [main] ERROR (BaseClass.java:53) - User able to enter total saving
+2023-01-20 05:19:47,254 -0800 [main] INFO  (BaseClass.java:52) - User able to enter annual saving
+2023-01-20 05:19:47,255 -0800 [main] ERROR (BaseClass.java:53) - User able to enter annual saving
+2023-01-20 05:19:47,511 -0800 [main] INFO  (BaseClass.java:52) - User able to enter rate of Interest
+2023-01-20 05:19:47,512 -0800 [main] ERROR (BaseClass.java:53) - User able to enter rate of Interest
+2023-01-20 05:19:47,779 -0800 [main] INFO  (BaseClass.java:52) - User able to select socialsecurity benifit
+2023-01-20 05:19:47,780 -0800 [main] ERROR (BaseClass.java:53) - User able to select socialsecurity benifit
+2023-01-20 05:19:49,979 -0800 [main] INFO  (BaseClass.java:52) - User able to marital status
+2023-01-20 05:19:49,979 -0800 [main] ERROR (BaseClass.java:53) - User able to marital status
+2023-01-20 05:19:50,141 -0800 [main] INFO  (BaseClass.java:52) - User able to click on social security amount
+2023-01-20 05:19:50,141 -0800 [main] ERROR (BaseClass.java:53) - User able to click on social security amount
+2023-01-20 05:19:50,270 -0800 [main] INFO  (BaseClass.java:52) - User able to social security override amount
+2023-01-20 05:19:50,270 -0800 [main] ERROR (BaseClass.java:53) - User able to social security override amount
+2023-01-20 05:19:50,568 -0800 [main] INFO  (BaseClass.java:52) - User able to click on calculator
+2023-01-20 05:19:50,570 -0800 [main] ERROR (BaseClass.java:53) - User able to click on calculator
+2023-01-20 05:19:53,550 -0800 [main] INFO  (BaseClass.java:52) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:19:53,552 -0800 [main] ERROR (BaseClass.java:53) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:20:41,029 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:20:41,038 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:20:41,368 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:20:41,369 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:20:41,764 -0800 [main] INFO  (BaseClass.java:52) - User able to enter current annual income
+2023-01-20 05:20:41,764 -0800 [main] ERROR (BaseClass.java:53) - User able to enter current annual income
+2023-01-20 05:20:42,084 -0800 [main] INFO  (BaseClass.java:52) - User able to enter spouse income
+2023-01-20 05:20:42,085 -0800 [main] ERROR (BaseClass.java:53) - User able to enter spouse income
+2023-01-20 05:20:42,407 -0800 [main] INFO  (BaseClass.java:52) - User able to enter total saving
+2023-01-20 05:20:42,407 -0800 [main] ERROR (BaseClass.java:53) - User able to enter total saving
+2023-01-20 05:20:42,663 -0800 [main] INFO  (BaseClass.java:52) - User able to enter annual saving
+2023-01-20 05:20:42,663 -0800 [main] ERROR (BaseClass.java:53) - User able to enter annual saving
+2023-01-20 05:20:42,922 -0800 [main] INFO  (BaseClass.java:52) - User able to enter rate of Interest
+2023-01-20 05:20:42,923 -0800 [main] ERROR (BaseClass.java:53) - User able to enter rate of Interest
+2023-01-20 05:20:43,212 -0800 [main] INFO  (BaseClass.java:52) - User able to select socialsecurity benifit
+2023-01-20 05:20:43,213 -0800 [main] ERROR (BaseClass.java:53) - User able to select socialsecurity benifit
+2023-01-20 05:20:45,421 -0800 [main] INFO  (BaseClass.java:52) - User able to marital status
+2023-01-20 05:20:45,422 -0800 [main] ERROR (BaseClass.java:53) - User able to marital status
+2023-01-20 05:20:45,565 -0800 [main] INFO  (BaseClass.java:52) - User able to click on social security amount
+2023-01-20 05:20:45,565 -0800 [main] ERROR (BaseClass.java:53) - User able to click on social security amount
+2023-01-20 05:20:45,738 -0800 [main] INFO  (BaseClass.java:52) - User able to social security override amount
+2023-01-20 05:20:45,738 -0800 [main] ERROR (BaseClass.java:53) - User able to social security override amount
+2023-01-20 05:20:45,740 -0800 [main] INFO  (BaseClass.java:52) - User able to click on calculator
+2023-01-20 05:20:45,742 -0800 [main] ERROR (BaseClass.java:53) - User able to click on calculator
+2023-01-20 05:24:53,289 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:24:53,297 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:24:53,658 -0800 [main] INFO  (BaseClass.java:52) - User able to enter age
+2023-01-20 05:24:53,660 -0800 [main] ERROR (BaseClass.java:53) - User able to enter age
+2023-01-20 05:24:54,095 -0800 [main] INFO  (BaseClass.java:52) - User able to enter current annual income
+2023-01-20 05:24:54,095 -0800 [main] ERROR (BaseClass.java:53) - User able to enter current annual income
+2023-01-20 05:24:54,473 -0800 [main] INFO  (BaseClass.java:52) - User able to enter spouse income
+2023-01-20 05:24:54,473 -0800 [main] ERROR (BaseClass.java:53) - User able to enter spouse income
+2023-01-20 05:24:55,022 -0800 [main] INFO  (BaseClass.java:52) - User able to enter total saving
+2023-01-20 05:24:55,023 -0800 [main] ERROR (BaseClass.java:53) - User able to enter total saving
+2023-01-20 05:24:55,280 -0800 [main] INFO  (BaseClass.java:52) - User able to enter annual saving
+2023-01-20 05:24:55,281 -0800 [main] ERROR (BaseClass.java:53) - User able to enter annual saving
+2023-01-20 05:24:55,490 -0800 [main] INFO  (BaseClass.java:52) - User able to enter rate of Interest
+2023-01-20 05:24:55,490 -0800 [main] ERROR (BaseClass.java:53) - User able to enter rate of Interest
+2023-01-20 05:24:55,734 -0800 [main] INFO  (BaseClass.java:52) - User able to select socialsecurity benifit
+2023-01-20 05:24:55,735 -0800 [main] ERROR (BaseClass.java:53) - User able to select socialsecurity benifit
+2023-01-20 05:24:57,942 -0800 [main] INFO  (BaseClass.java:52) - User able to marital status
+2023-01-20 05:24:57,943 -0800 [main] ERROR (BaseClass.java:53) - User able to marital status
+2023-01-20 05:24:58,164 -0800 [main] INFO  (BaseClass.java:52) - User able to click on calculator
+2023-01-20 05:24:58,165 -0800 [main] ERROR (BaseClass.java:53) - User able to click on calculator
+2023-01-20 05:25:01,080 -0800 [main] INFO  (BaseClass.java:52) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:25:01,082 -0800 [main] ERROR (BaseClass.java:53) - User able to submit data successfullyCongratulations! You are exceeding your retirement goals. You are saving an extra $833 a month.
+2023-01-20 05:29:02,103 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:29:02,110 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:29:03,300 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:29:03,301 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:29:03,470 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 05:29:03,474 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 05:29:03,813 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 05:29:03,814 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 05:29:04,143 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 05:29:04,143 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 05:29:04,701 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 05:29:04,702 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 05:29:04,916 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 05:29:04,916 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 05:29:05,125 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 05:29:05,125 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 05:29:05,335 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:29:05,336 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:29:07,481 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:29:07,482 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:29:09,607 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 05:29:09,608 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 05:29:10,727 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:29:10,731 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:29:10,804 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 05:29:10,804 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 05:29:10,909 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 05:29:10,910 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 05:29:11,021 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 05:29:11,021 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 05:29:11,133 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 05:29:11,134 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 05:29:11,247 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 05:29:11,247 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 05:29:11,400 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 05:29:11,401 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 05:29:11,563 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 05:29:11,564 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 05:29:11,723 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 05:29:11,723 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 05:29:11,887 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 05:29:11,889 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 05:29:12,051 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:29:12,057 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:33:05,318 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:33:05,325 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:33:06,555 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:33:06,556 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:33:06,827 -0800 [main] INFO  (BaseClass.java:52) - User able to enter income
+2023-01-20 05:33:06,828 -0800 [main] ERROR (BaseClass.java:53) - User able to enter income
+2023-01-20 05:33:07,068 -0800 [main] INFO  (BaseClass.java:52) - User able to enter retirement duration
+2023-01-20 05:33:07,069 -0800 [main] ERROR (BaseClass.java:53) - User able to enter retirement duration
+2023-01-20 05:33:07,453 -0800 [main] INFO  (BaseClass.java:52) - User able to select checkbox
+2023-01-20 05:33:07,454 -0800 [main] ERROR (BaseClass.java:53) - User able to select checkbox
+2023-01-20 05:33:07,925 -0800 [main] INFO  (BaseClass.java:52) - User able to annual income
+2023-01-20 05:33:07,927 -0800 [main] ERROR (BaseClass.java:53) - User able to annual income
+2023-01-20 05:33:08,186 -0800 [main] INFO  (BaseClass.java:52) - User able to pre-retirement investment return
+2023-01-20 05:33:08,187 -0800 [main] ERROR (BaseClass.java:53) - User able to pre-retirement investment return
+2023-01-20 05:33:08,407 -0800 [main] INFO  (BaseClass.java:52) - User able to post-retirement investment return
+2023-01-20 05:33:08,408 -0800 [main] ERROR (BaseClass.java:53) - User able to post-retirement investment return
+2023-01-20 05:33:08,605 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:33:08,605 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
+2023-01-20 05:33:10,822 -0800 [main] INFO  (BaseClass.java:52) - User able to open default calc
+2023-01-20 05:33:10,823 -0800 [main] ERROR (BaseClass.java:53) - User able to open default calc
+2023-01-20 05:33:12,938 -0800 [main] INFO  (BaseClass.java:52) - User able to clear addtional income textbox
+2023-01-20 05:33:12,940 -0800 [main] ERROR (BaseClass.java:53) - User able to clear addtional income textbox
+2023-01-20 05:33:14,056 -0800 [main] INFO  (BaseClass.java:52) - User able to click on addtional income textbox
+2023-01-20 05:33:14,059 -0800 [main] ERROR (BaseClass.java:53) - User able to click on addtional income textbox
+2023-01-20 05:33:14,138 -0800 [main] INFO  (BaseClass.java:52) - User able to update enter income
+2023-01-20 05:33:14,139 -0800 [main] ERROR (BaseClass.java:53) - User able to update enter income
+2023-01-20 05:33:14,261 -0800 [main] INFO  (BaseClass.java:52) - User able to clear retirement duration
+2023-01-20 05:33:14,262 -0800 [main] ERROR (BaseClass.java:53) - User able to clear retirement duration
+2023-01-20 05:33:14,371 -0800 [main] INFO  (BaseClass.java:52) - User able to update retirement duration
+2023-01-20 05:33:14,372 -0800 [main] ERROR (BaseClass.java:53) - User able to update retirement duration
+2023-01-20 05:33:14,503 -0800 [main] INFO  (BaseClass.java:52) - User able to clear final annual income
+2023-01-20 05:33:14,504 -0800 [main] ERROR (BaseClass.java:53) - User able to clear final annual income
+2023-01-20 05:33:14,615 -0800 [main] INFO  (BaseClass.java:52) - User able to update final annual income
+2023-01-20 05:33:14,615 -0800 [main] ERROR (BaseClass.java:53) - User able to update final annual income
+2023-01-20 05:33:14,732 -0800 [main] INFO  (BaseClass.java:52) - User able to clear pre-retirement investment return
+2023-01-20 05:33:14,733 -0800 [main] ERROR (BaseClass.java:53) - User able to clear pre-retirement investment return
+2023-01-20 05:33:14,868 -0800 [main] INFO  (BaseClass.java:52) - User able to update pre-retirement investment return
+2023-01-20 05:33:14,869 -0800 [main] ERROR (BaseClass.java:53) - User able to update pre-retirement investment return
+2023-01-20 05:33:14,984 -0800 [main] INFO  (BaseClass.java:52) - User able to clear post-retirement investment return text box
+2023-01-20 05:33:14,984 -0800 [main] ERROR (BaseClass.java:53) - User able to clear post-retirement investment return text box
+2023-01-20 05:33:15,120 -0800 [main] INFO  (BaseClass.java:52) - User able to update post-retirement investment return
+2023-01-20 05:33:15,122 -0800 [main] ERROR (BaseClass.java:53) - User able to update post-retirement investment return
+2023-01-20 05:33:15,294 -0800 [main] INFO  (BaseClass.java:52) - User able to click on save change
+2023-01-20 05:33:15,303 -0800 [main] ERROR (BaseClass.java:53) - User able to click on save change
