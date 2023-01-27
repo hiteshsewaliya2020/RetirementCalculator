@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 
 import org.apache.log4j.Logger;
@@ -22,22 +23,37 @@ import org.testng.annotations.BeforeMethod;
 
 import Pages.CalculatorPage;
 import Pages.DefaultCalculatorPage;
+import Tests.Data;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass{
-
-	public String baseUrl="https://www.securian.com/insights-tools/retirement-calculator.html";
-	public static WebDriver driver;
+    
+	protected WebDriver driver;
 	protected boolean result = true;
-	public static Logger logger;
-	
-	
-	
+	protected  CalculatorPage calc;
+	protected  Data obj;
+	protected static Logger logger;
+	protected DefaultCalculatorPage dc;
+	protected Common common;
+	 
 	@BeforeMethod
 	public void setUp() {
+		//initiaze webbrowser
 		WebDriverManager.chromedriver().setup();
 	    driver=new ChromeDriver();
+	    
+	    //maximize browser window
 	    driver.manage().window().maximize();
+	     
+	    //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	    
+	    //create page objects
+	    calc = new CalculatorPage(driver);
+	    obj = new Data(driver);
+	    dc  =new DefaultCalculatorPage(driver);
+	    common = new Common(driver);
+	    
+	    //configure log4j
 	    logger=Logger.getLogger("ReirementCalculator");
 	    PropertyConfigurator.configure("log4j.properties");
 	    }
@@ -50,11 +66,10 @@ public class BaseClass{
 	
 	public void passTest(String Message) {
 		logger.info(Message);
-		logger.error(Message);
 		Assert.assertTrue(true, Message);
 	}
 	public void failTest(String Message) {
-		logger.info(Message);
+		logger.error(Message);
 		Assert.fail(Message);
 	}
 	

@@ -9,55 +9,57 @@ public class TestSocialSecurityToggle extends BaseClass {
 	
 	@Test(description = "Test to display and hide social security field")
 	public void TestSocialSecurityFile() {
-	     driver.get(baseUrl);
-	     CalculatorPage calc=new CalculatorPage(driver);
+	   
 		
-		//step:1 select yes for social security benefit
+		//step:1 open url
+	     String baseUrl = obj.BaseUrl();
+		 result = common.get(baseUrl);
+		 if(result == true) {
+		   passTest("load url on browser");
+		 } else {
+		  failTest("Unable to load url on browser");
+		}
+		 
+		
+		//step:2 scroll window
+		result = common.pageScroll();
+		if (result == true) {
+		passTest("User able to select yes for  select socialsecurity benifit");
+		} else {
+		failTest("Unable to select yes for socialsecurity benifit");
+		}
+		 
+		//step:3 select yes for social security benefit
 		result = calc.socialSecurity();
 		if (result == true) {
-		passTest("User able to yes for  select socialsecurity benifit");
+		passTest("User able to select yes for  select socialsecurity benifit");
 		} else {
-		failTest("Unable to select for socialsecurity benifit");
+		failTest("Unable to select yes for socialsecurity benifit");
 		}
 		
-		//step:2 check to display  marital status options
-		result = calc.maritalStatusField();
-		if (result == true) {
-		passTest("User able to display marital status options");
-		} else {
-		failTest("Unable to display marital status options");
-		}
-		
-		//step:3 check to display socialSecurityField options
+		//step:4 check to display social security field options
 		result = calc.socialSecurityField();
 		if (result == true) {
-		passTest("User able to display marital status options");
-	    } else {
-		failTest("Unable to display marital status options");
+		passTest("Display social security benifit option");
+		} else {
+		failTest("Unable to Display social security benifit option");
 		}
 		
-		//step:4 select No for social security benefit
+		//step:5 select No for social security benefit
 		result = calc.clickNOSocialSecurity();
 		if (result == true) {
-		passTest("User able to No for  select socials ecurity benifit");
+		passTest("Select No for  select socials ecurity benifit");
 		} else {
-		failTest("Unable to No for socialsecurity benifit");
+		failTest("Unable to select No for socialsecurity benifit");
 		}
 		
-		//step:5 check to not display  marital status options
-		result = calc.maritalStatusField();
-		if (result == false) {
-		passTest("User able to not see marital status options");
-		} else {
-		failTest("able to display marital status options");
-		}
-				
-		//step:6 check to not display socialSecurityField options
+		//step:6 check to not display social security options
 		result = calc.socialSecurityField();
 		if (result == false) {
-		passTest("User able to not see social secutiry override amount");
-	    } else {
-		failTest("able to see social secutiry override amount");
+		passTest("Not display socialsecurityfield options");
+		} else {
+		failTest("display socialsecurityfield options");
 		}
-}
+				
+	}
 }

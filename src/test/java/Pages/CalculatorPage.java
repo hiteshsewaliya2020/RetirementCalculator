@@ -3,6 +3,8 @@ package Pages;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,12 +25,12 @@ public class CalculatorPage {
 	By addSocialSecurity = By.id("social-security-override");
 	By clickOncalculator = By.xpath("//button[@data-tag-id='submit']");
 	By result= By.id("result-message");
-	By maritalStatus = By.id("marital-status-ul");
 	By hideSocialSecurity = By.xpath("//label[text()='No']");
 	
 	public CalculatorPage(WebDriver driver) {
 		this.driver=driver;
 	}
+	
 	
 	public boolean currentAge(String age) {
 		try {
@@ -48,10 +50,27 @@ public class CalculatorPage {
 		return true;
 	}
 
-	public boolean currentIncome(String income) {
+	public boolean clickOnCurrentIncomeTextBox(String income) {
 		try {
 			driver.findElement(currentIncome).click();
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean currentIncome(String income) {
+		try {
 			driver.findElement(currentIncome).sendKeys(income);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean clickOnspouseIncomeTextBox() {
+		try {
+			driver.findElement(spouseIncome).click();
 		} catch (Exception e) {
 			return false;
 		}
@@ -59,8 +78,16 @@ public class CalculatorPage {
 	}
 	public boolean spouseIncome(String income) {
 		try {
-			driver.findElement(spouseIncome).click();
 			driver.findElement(spouseIncome).sendKeys(income);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean clickTotalSavingTextBox() {
+		try {
+			driver.findElement(totalSaving).click();
 		} catch (Exception e) {
 			return false;
 		}
@@ -68,7 +95,6 @@ public class CalculatorPage {
 	}
 	public boolean totalSaving(String totalsaving) {
 		try {
-			driver.findElement(totalSaving).click();
 			driver.findElement(totalSaving).sendKeys(totalsaving);
 		} catch (Exception e) {
 			return false;
@@ -111,7 +137,7 @@ public class CalculatorPage {
 	
 	public boolean maritialStatus() {
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(maritialStatus).click();
 		} catch (Exception e) {
 			return false;
@@ -121,7 +147,7 @@ public class CalculatorPage {
 	
 	public boolean clickSocialSecurity() {
 		try {
-			driver.findElement(addSocialSecurity).click();;
+			driver.findElement(addSocialSecurity).click();
 		} catch (Exception e) {
 			return false;
 		}
@@ -149,33 +175,18 @@ public class CalculatorPage {
 			WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(result));
 			String message= driver.findElement(result).getText();
-			System.out.println(message);
 			return message;
 		} catch (Exception e) {
 			return null;
 		}
 	}
 	
-	
-	public boolean maritalStatusField() {
-		try {
-			Thread.sleep(2000);
-			WebElement element=driver.findElement(maritalStatus);
-			if(element.isDisplayed()){
-				return true;
-			}
-			else {
-				return false;
-			}
-		} catch (Exception e) {
-			return false;
-		}
-	}
-	
 	public boolean socialSecurityField() {
 		try {
-			WebElement element=driver.findElement(addSocialSecurity);
-			if(element.isDisplayed()){
+			WebElement maritalStatus= driver.findElement(maritialStatus);
+			WebElement socialSecurity=driver.findElement(addSocialSecurity);
+			
+			if(maritalStatus.isDisplayed()&&socialSecurity.isDisplayed()){
 				return true;
 			}
 			else {
@@ -185,5 +196,6 @@ public class CalculatorPage {
 			return false;
 		}
 	}
+	
 
 }

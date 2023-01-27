@@ -8,15 +8,20 @@ import Utility.ReadConfigXlsFile;
 
 public class Data extends BaseClass {
 
-	WebDriver driver;
-	
+	protected WebDriver driver;
+	String message="Congratulations!";
+	String baseUrl="https://www.securian.com/insights-tools/retirement-calculator.html";
 		
 	public Data(WebDriver driver) {
 		this.driver = driver;
-		// This initElements method will create all WebElements
-		PageFactory.initElements(driver, this);
 	}
-
+	
+    public String BaseUrl() {
+    	return baseUrl;
+    }
+	public String getResultMessage() {
+		return message;
+	}
 	public String getcurrentAge() {
 		return ReadConfigXlsFile.getMapData("currentAge");
 	}

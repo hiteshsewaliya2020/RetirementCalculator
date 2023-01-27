@@ -21,7 +21,7 @@ protected WebDriver driver;
 	By preReturn = By.id("pre-retirement-roi");
 	By postReturn = By.id("post-retirement-roi");
 	By clickOnSave =By.xpath("//button[text()='Save changes']");
-	By result= By.id("result-message");
+
 	
 	public DefaultCalculatorPage(WebDriver driver) {
 		this.driver=driver;
@@ -31,6 +31,16 @@ protected WebDriver driver;
 		try {
 			Thread.sleep(2000);
 			driver.findElement(clickDefaultCalc).click();
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean clearAdditionalIncome() {
+		try {
+			Thread.sleep(2000);
+			driver.findElement(additionalIncome).clear();
 		} catch (Exception e) {
 			return false;
 		}
@@ -55,14 +65,15 @@ protected WebDriver driver;
 		return true;
 	}
     
-	public boolean enterRetirementDuration() {
+	public boolean clearRetirementDuration() {
 		try {
-			driver.findElement(retirementDuration).click();
+			driver.findElement(retirementDuration).clear();
 			} catch (Exception e) {
 			return false;
 		}
 		return true;
 	}
+	
 	public boolean retirementDuration(String value) {
 		try {
 			driver.findElement(retirementDuration).sendKeys(value);
@@ -84,14 +95,16 @@ protected WebDriver driver;
 		}
 		return true;
 	}
-	public boolean enterOnAnnualIncome() {
+
+	public boolean clearAnnualIncome() {
 		try {
-			driver.findElement(annualIncome).click();
+			driver.findElement(annualIncome).clear();
 		} catch (Exception e) {
 			return false;
 		}
 		return true;
-	}
+	}	
+	
 	public boolean annualIncome(String income) {
 		try {
 			driver.findElement(annualIncome).sendKeys(income);
@@ -101,9 +114,9 @@ protected WebDriver driver;
 		return true;
 	}
 	
-	public boolean clickOnPreReturn() {
+	public boolean clearPreReturn() {
 		try {
-			driver.findElement(preReturn).click();;
+			driver.findElement(preReturn).clear();
 		} catch (Exception e) {
 			return false;
 		}
@@ -118,9 +131,9 @@ protected WebDriver driver;
 		return true;
 	}
 	
-	public boolean clickOnPostReturn(String postreturn) {
+	public boolean clearPostReturn() {
 		try {
-			driver.findElement(postReturn).click();;
+			driver.findElement(postReturn).clear();;
 		} catch (Exception e) {
 			return false;
 		}
@@ -143,49 +156,5 @@ protected WebDriver driver;
 		}
 		return true;
 	}
-	public boolean clearAdditionalIncome() {
-		try {
-			Thread.sleep(2000);
-			driver.findElement(additionalIncome).clear();
-		} catch (Exception e) {
-			return false;
-		}
-		return true;
-	}
-	public boolean clearRetirementDuration() {
-		try {
-			driver.findElement(retirementDuration).clear();
-			} catch (Exception e) {
-			return false;
-		}
-		return true;
-	}
-	
-	public boolean clearAnnualIncome() {
-		try {
-			driver.findElement(annualIncome).clear();
-		} catch (Exception e) {
-			return false;
-		}
-		return true;
-	}
-	
-	public boolean clearPreReturn() {
-		try {
-			driver.findElement(preReturn).clear();
-		} catch (Exception e) {
-			return false;
-		}
-		return true;
-	}
-	
-	public boolean clearPostReturn() {
-		try {
-			driver.findElement(postReturn).clear();;
-		} catch (Exception e) {
-			return false;
-		}
-		return true;
-	}
-
+				
 }

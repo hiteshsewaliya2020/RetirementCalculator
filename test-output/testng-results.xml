@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-20T05:32:41 PST" name="Default suite" finished-at="2023-01-20T05:33:15 PST" duration-ms="34194">
+  <suite started-at="2023-01-27T03:00:28 PST" name="Default suite" finished-at="2023-01-27T03:00:58 PST" duration-ms="30010">
     <groups>
     </groups>
-    <test started-at="2023-01-20T05:32:41 PST" name="Default test" finished-at="2023-01-20T05:33:15 PST" duration-ms="34194">
+    <test started-at="2023-01-27T03:00:28 PST" name="Default test" finished-at="2023-01-27T03:00:58 PST" duration-ms="30010">
       <class name="Tests.TestUpdateDefualtCal">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-20T05:32:41 PST" name="setUp" finished-at="2023-01-20T05:32:47 PST" duration-ms="6130" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-27T03:00:28 PST" name="setUp" finished-at="2023-01-27T03:00:34 PST" duration-ms="5892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestUpdateCalculator()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-20T05:32:47 PST" name="TestUpdateCalculator" description="Test to update default calcultor value" finished-at="2023-01-20T05:33:15 PST" duration-ms="27958" status="PASS">
+        <test-method signature="TestUpdateCalculator()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-27T03:00:34 PST" name="TestUpdateCalculator" description="Test to update default calcultor value" finished-at="2023-01-27T03:00:58 PST" duration-ms="23999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestUpdateCalculator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-20T05:33:15 PST" name="tearDown" finished-at="2023-01-20T05:33:15 PST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestUpdateDefualtCal@18df8434]" started-at="2023-01-27T03:00:58 PST" name="tearDown" finished-at="2023-01-27T03:00:58 PST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
